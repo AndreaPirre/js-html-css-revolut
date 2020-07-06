@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* regola per centrare i contenuti */
+.centratura {
+    padding: 0 10%;
+}
+
+.barraTop {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(243, 244, 245);
+}
+
+.barraTop ul {
+    display: flex;
+    line-height: 60px;
+}
+
+.barraTop ul li {
+    margin-right: 20px;
+
+}
