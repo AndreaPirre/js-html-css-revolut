@@ -10,6 +10,14 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: grey;
+}
+
+a:hover {
+    color: #000;
+}
+
 /* regola per centrare i contenuti */
 .centratura {
     padding: 0 10%;
@@ -86,7 +94,7 @@ body {
     padding: 20px;
     color: #fff;
 }
-.parent-dropDownDenaro, .parent-dropDownInvestimenti {
+.parent-dropDown {
     position: relative;
 }
 
@@ -99,42 +107,30 @@ body {
     display: none;
 }
 
-.dropDownInvestimenti {
-    position: absolute;
-    top: 75px;
-    left: -20px;
-    box-shadow: 2px 2px 10px 2px #cccccc;
-    border-radius: 5px;
-    display: none;
-}
-
-.dropDownDenaro {
+.dropDownDenaro, .dropDownAltro  {
     width: 250px;
 }
 
-.dropDownInvestimenti {
-    width: 300px;
+.dropDownInvestimenti{
+    width: 350px;
+}
+
+.dropDownControllo, .dropDownPlans {
+    width: 200px;
+}
+
+.dropDownPlans {
+    width: 150px;
 }
 
 
-.dropDownDenaro ul {
+.dropDownDenaro ul, .dropDownInvestimenti ul, .dropDownControllo ul, .dropDownAltro ul, .dropDownPlans ul {
     display: flex;
     flex-direction: column;
 }
 
-.dropDownInvestimenti ul {
-    display: flex;
-    flex-direction: column;
-}
-
-.dropDownDenaro ul li {
+.dropDownDenaro ul li, .dropDownInvestimenti ul li, .dropDownControllo ul li, .dropDownAltro ul li, .dropDownPlans ul li {
     margin-bottom: 2px;
-    margin-left: 10px;
-    line-height: 40px;
-}
-
-.dropDownInvestimenti ul li {
-    margin-bottom: 2px;
-    margin-left: 10px;
+    margin-left: 20px;
     line-height: 40px;
 }

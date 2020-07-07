@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".parent-dropDownDenaro").hover(function() {
+    $(".parent-dropDown").hover(function() {
         $(this).children(".dropDown").toggle();
     });
 });
