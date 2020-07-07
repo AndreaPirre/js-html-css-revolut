@@ -3,3 +3,9 @@ $(document).ready(function(){
         $(this).children(".dropDown").toggle();
     });
 });
+
+$(document).ready(function(){
+    $(".parent-dropDownInvestimenti").hover(function() {
+        $(this).children(".dropDownInvestimenti").toggle();
+    });
+});
