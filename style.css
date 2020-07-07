@@ -19,14 +19,86 @@ body {
     width: 100%;
     height: 60px;
     background-color: rgb(243, 244, 245);
+    display: flex;
 }
 
-.barraTop ul {
+.tastiLeft, .tastiRight {
+    width: 50%;
+}
+
+.tastiLeft ul {
     display: flex;
     line-height: 60px;
 }
 
-.barraTop ul li {
+.tastiLeft ul li {
     margin-right: 20px;
+}
 
+.tastiRight ul {
+    display: flex;
+    line-height: 60px;
+    justify-content: flex-end;
+}
+
+.tastiRight ul li {
+    margin-left: 20px;
+}
+
+.navBar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+#imgLogo {
+    width: 100px;
+    margin-top:35px;
+}
+
+.navLeft {
+    width: 60%;
+}
+
+.navLeft ul{
+    display: flex;
+    line-height: 100px;
+}
+
+.navLeft ul li {
+    margin-left: 40px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.btn {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+}
+.parent-dropDownDenaro {
+    position: relative;
+}
+
+.dropDown {
+    position: absolute;
+    top: 75px;
+    left: -20px;
+}
+
+
+.dropDownDenaro {
+    width: 200px;
+    height: 400px;
+    background-color: red;
 }
