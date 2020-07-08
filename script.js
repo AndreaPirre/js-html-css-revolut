@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $(".fas").click(function() {
-        $(this)(".dropDownXs").toggle();
+    $(".parent-dropDownXs").click(function() {
+        $(this).children(".dropDownXs").toggle();
     });
 });
