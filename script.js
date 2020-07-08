@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $(".parent-dropDownInvestimenti").hover(function() {
-        $(this).children(".dropDownInvestimenti").toggle();
+    $(".fas").click(function() {
+        $(this)(".dropDownXs").toggle();
     });
 });
